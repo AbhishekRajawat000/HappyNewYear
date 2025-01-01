@@ -100,17 +100,17 @@ setInterval(() => {
 }, 100);
 
 // Create floating year elements
-function createFloatingYears() {
-    for (let i = 0; i < 5; i++) {
-        const year = document.createElement('div');
-        year.className = 'floating-year';
-        year.textContent = '2025';
-        year.style.left = Math.random() * 100 + 'vw';
-        year.style.top = Math.random() * 100 + 'vh';
-        year.style.animationDelay = `-${Math.random() * 20}s`;
-        document.body.appendChild(year);
-    }
-}
+// function createFloatingYears() {
+//     for (let i = 0; i < 5; i++) {
+//         const year = document.createElement('div');
+//         year.className = 'floating-year';
+//         year.textContent = '2025';
+//         year.style.left = Math.random() * 100 + 'vw';
+//         year.style.top = Math.random() * 100 + 'vh';
+//         year.style.animationDelay = `-${Math.random() * 20}s`;
+//         document.body.appendChild(year);
+//     }
+// }
 
 // Create fireworks
 function createFirework() {
