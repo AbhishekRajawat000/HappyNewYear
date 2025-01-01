@@ -4,16 +4,24 @@ let currentTrackIndex = 0;
 const audioElements = [];
 const tracks = [
     {
-        name: "New Year Celebration Song",
+        name: "afsanay.mp3",
         element: "song1"
     },
     {
-        name: "Auld Lang Syne",
+        name: "Whip.mp3",
         element: "song2"
     },
     {
-        name: "Fireworks Dance Mix",
+        name: "Alan Walker & Hernandz - The Calling",
         element: "song3"
+    },
+    {
+        name: "Kendrick Lamar, SZA - All The Stars",
+        element: "song4"
+    },
+    {
+        name: "MORAD & GIMS - SEYA",
+        element: "song5"
     }
 ];
 
