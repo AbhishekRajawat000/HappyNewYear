@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy New Year 2025!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Happy New Year 2025! 🎉</h1>
+        <p class="subtitle">Celebrate with joy and music</p>
+
+        <div id="countdown" class="countdown">Loading...</div>
+
+        <div class="music-player">
+            <h2 class="player-title">Celebration Music</h2>
+            <!-- Audio elements -->
+            <div class="audio-container">
+                <audio id="song1" src="afsanay.mp3"></audio>
+                <audio id="song2" src="path/to/auld-lang-syne.mp3"></audio>
+                <audio id="song3" src="afsanay.mp3"></audio>
+            </div>
+            <div class="volume-control">
+                <label for="volume">Volume:</label>
+                <input type="range" id="volume" min="0" max="1" step="0.1" value="0.5">
+            </div>
+            <div class="controls">
+                <button class="btn" onclick="togglePlay()">Play/Pause</button>
+                <button class="btn" onclick="nextTrack()">Next Track</button>
+            </div>
+            <div id="current-track">No track playing</div>
+            <div id="progress-bar" class="progress-container">
+                <div class="progress"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
